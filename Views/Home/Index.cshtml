@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Weather API</h1>
+  
+</div>
+
+<p id="reply">
+<button>Get Weather</button>
+</p>
+
+<script>
+    ("document").ready(function (){
+        $("button").click(function () {
+            $.get("http://api.openweathermap.org/data/2.5/weather?q=Birmingham,Alabama&appid=e17a8405f83567ae896a058ae0fcacd2&units=imperial", function (response) {
+
+                //response
+                $("#reply").text(response);
+
+            });
+        });
+    });
+
+
+</script>

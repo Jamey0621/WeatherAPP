@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cCcMqEjfO5a7dac/1Yt6yL0yUnDhMOcMocTsfohelDQ7VbEUkEQ+mUS2jLL/g4tX1wTIK2/gijM5/FSajpNCQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jamey\\Projects\\WeatherApp\\WeatherApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jamey\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
